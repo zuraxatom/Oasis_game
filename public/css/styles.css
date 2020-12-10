@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.left-part {
+    width: 40%;
+    height: 100%;
+    float: left;
+
+
+}
+
+.right-part {
+    width: 60%;
+    height: 70%;
+    float: right;
+    background-color: white;
+}
+
+.left-img {
+    float: left;
+    display: block;
+    height: 100%;
+    margin-left: -600px;
+    z-index: 1;
+}
+
+.footer-right {
+    width: 60%;
+    height: 30%;
+    float: right;
+    background-color: #333333;
+}
+
+.logo {
+    margin: auto 0;
+    z-index: 10;
+    position: absolute;
+    top: 120px;
+    margin-left: 170px;
+}
+
+.logo:hover {
+    zoom: 1.005;
+}
+
+.logo img {
+    max-width: 70%;
+}
+
+.text-left {
+    left: 100px;
+    top: 550px;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.info {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.button_ip {
+    background-color: rgba(255, 255, 255, 0.219);
+    text-decoration: none;
+    position: absolute;
+    right: 1390px;
+    font-size: 25px;
+    top: 650px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+
+
+}
+
+.button_ip:hover {
+    background-color: rgb(172, 162, 162, 0.5);
+
+
+
+}
+
+.button_forum {
+    color: white;
+    background-color: #66ccff;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 60px;
+    right: 665px;
+}
+
+.button_forum:hover {
+    background-color: #89caeb;
+    zoom: 1.002;
+}
+
+.button_shop {
+    color: white;
+    background-color: #ffcc66;
+    text-decoration: none;
+    position: absolute;
+    padding: 17px;
+    font-size: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    right: 75px;
+}
+
+.button_shop:hover {
+    background-color: #ffd37a;
+    zoom: 1.002;
+}
+
+.title {
+    color: #444040;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text {
+    text-align: center;
+    color: #444040;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#text_italic {
+    font-style: italic;
+}
+
+hr {
+    margin-left: 350px;
+}
+
+.icon_contact img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+
+}
+
+.discord-icon {
+    left: 1500px;
+    top: 760px;
+}
+
+.discord-icon:hover {
+    zoom: 1.002;
+}
+
+.twitter-icon {
+    left: 1150px;
+    top: 756px;
+}
+
+.twitter-icon:hover {
+    zoom: 1.002;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+.social-network {
+    color: white;
+}
+
+.blue {
+    color: rgb(31, 168, 223);
+}
+
+.twitter-text {
+    margin-top: 100px;
+    margin-left: 283px;
+    font-size: 10px;
+}
+
+.discord-text {
+    margin-top: -17px;
+    margin-left: 685px;
+    font-size: 10px;
+}
+
+#separator_footer hr {
+    width: 40%;
+}
+
+.cgu_text {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.orange {
+    color: orange;
+}
+
+.deco_link {
+    text-decoration: none;
+}
+
+.text_afi {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1280px) {
+    .logo {
+        width: 30%;
+        left: -50px;
+        top: 300px;
+    }
+
+    .button_forum {
+        font-size: 30px;
+        right: 365px;
+    }
+
+    .button_shop {
+        font-size: 30px;
+        right: 20px;
+    }
+
+    .text-left {
+        font-size: 10px;
+        left: 75px;
+    }
+
+    .button_ip {
+        right: 820px;
+
+    }
+
+    .discord-icon {
+        left: 950px;
+    }
+
+    .twitter-icon {
+        left: 750px;
+    }
+
+    .discord-text {
+        font-size: 7px;
+        margin-left: 440px;
+    }
+
+    .twitter-text {
+        font-size: 7px;
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .left-part {
+        height: 100%;
+    }
+
+    .logo {
+        width: 50%;
+        left: -130px;
+        top: 20%;
+    }
+
+    .button_forum {
+        font-size: 20rem;
+        right: 34%;
+        padding: 17px;
+        font-size: 60px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .button_shop {
+        font-size: 10pt;
+        right: 0.5%;
+        padding: 1%;
+        font-size: 60px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .text-left {
+        font-size: 10px;
+        left: 8%;
+        top: 65%;
+    }
+
+    .button_ip {
+        right: 68%;
+        top: 72%;
+
+    }
+
+    .discord-icon {
+        left: 75%;
+        top: 78%;
+    }
+
+    .twitter-icon {
+        left: 59%;
+        top: 78%;
+    }
+
+    .discord-text {
+        font-size: 7px;
+        margin-left: 55%;
+    }
+
+    .twitter-text {
+        font-size: 7px;
+        margin-left: 190px;
+    }
+}
+
+
